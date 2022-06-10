@@ -12,7 +12,7 @@
 import { ref } from 'vue'
 
 export default {
-  name: 'HelloWorld',
+  name: 'HelloTest',
   props: {
     title: String
   }
