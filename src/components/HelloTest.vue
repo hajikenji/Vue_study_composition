@@ -5,6 +5,7 @@
     <input type="number" class="form-control" min="0" v-model="data.num">
     <button class="btn btn-primary m-3" v-on:click="action">click</button>
     <p>{{ data.msgTotal }}</p>
+    <p>{{ $store.state.message }}</p>
   </div>
 </template>
 
@@ -12,7 +13,7 @@
 import { ref } from 'vue'
 
 export default {
-  name: 'HelloWorld',
+  name: 'HelloTest',
   props: {
     title: String
   }
